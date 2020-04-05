@@ -18,8 +18,9 @@
 |
 */
 
-import Route from '@ioc:Adonis/Core/Route'
+import Route from '@ioc:Adonis/Core/Route';
+import { Perfe } from '@persefonejs/apollo-adonis';
 
 Route.get('/', async () => {
-  return { hello: 'world' }
-})
+  return { hello: 'world 2 - ' + Perfe() };
+});

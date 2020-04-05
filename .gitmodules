@@ -1,0 +1,3 @@
+[submodule "apollo-adonis"]
+	path = packages/apollo-adonis
+	url = git@github.com:persefonejs/apollo-adonis.git
